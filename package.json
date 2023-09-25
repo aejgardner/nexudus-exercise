@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@elastic/eui": "^88.4.1",
     "next": "latest",
     "node-fetch": "^3.3.2",
     "react": "latest",
