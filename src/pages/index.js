@@ -3,6 +3,20 @@ import styles from './home.module.scss';
 const { test } = styles;
 
 export default function Home(props) {
+  console.log('props.products');
+  console.log(props.products);
+
+  const truncateDescription = (desc) => {
+    const descSplit = desc.split(' ');
+
+    if (descSplit.length > 10) {
+      const descTruncated = descSplit.slice(0, 10);
+      return `${descTruncated.join(' ')}...`;
+    }
+
+    return desc;
+  };
+
   return (
     <>
       <main className={test}>hello world</main>
