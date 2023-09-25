@@ -9,8 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "latest",
+    "node-fetch": "^3.3.2",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3",
+    "sass": "^1.68.0"
   }
 }
