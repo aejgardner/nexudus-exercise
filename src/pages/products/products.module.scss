@@ -1,0 +1,15 @@
+.productPage {
+    padding: 1rem 5rem 6rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    .title {
+        color: darkgreen;
+    }
+
+    .productNameColumn {
+        font-weight: bold;
+    }
+}
